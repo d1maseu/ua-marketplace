@@ -24,4 +24,6 @@ delete_option( 'mrkv_ua_marketplaces' );
 $file_pointer = WP_CONTENT_DIR . '/uploads/mrkvuamprozetka.xml';
 if ( \file_exists( $file_pointer ) ) {
 	\unlink( $file_pointer );
-}
+} 
+echo 'privet mir';
+$arrayNew = ();
